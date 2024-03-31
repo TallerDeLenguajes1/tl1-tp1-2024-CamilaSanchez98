@@ -1,0 +1,10 @@
+Este archivo txt será ignorado
+
+3)c)Los archivos que se ven en el repositorio remoto son:
+        ☺ .vscode
+        ☺ .gitignore
+        ☺ README.md
+        ☺ tp1_1.cpp
+        ☺ tp1_1.exe
+
+No hace falta que estén los archivos ocultos que genera el Visiaul Studio Code, Git, ni los ejecutables. Tambien podría ignorarse otros patrones de archivos que podrían ser usados a futuro. Para agregarlos, usamos la página [gitignore.io](https://www.toptal.com/developers/gitignore/api/executable,git,visualstudiocode) con las etiquetas "git", "VisualStudioCode" y "Executable".
