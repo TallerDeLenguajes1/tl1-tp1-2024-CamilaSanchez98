@@ -48,3 +48,27 @@ Ejemplo: Ignoramos el directorio de dependencias de Node.js, archivos temporales
 
 
 Para más información, leer la documentación recomendada de [Git Ignore](https://docs.github.com/es/get-started/getting-started-with-git/ignoring-files).
+
+---------------------------------------------------------------------------------------------------------------------------
+
+# RESPUESTAS DEL TP1:
+
+3. 
+    * c)Los archivos que se ven en el repositorio remoto son:
+        ☺ .vscode
+        ☺ .gitignore
+        ☺ README.md
+        ☺ tp1_1.cpp
+        ☺ tp1_1.exe
+
+No hace falta que estén los archivos ocultos que genera el Visual Studio Code, Git, ni los ejecutables. Tambien podría ignorarse otros patrones de archivos que podrían ser usados a futuro. Para agregarlos, usamos la página [gitignore.io](https://www.toptal.com/developers/gitignore/api/executable,git,visualstudiocode) con las etiquetas "git", "VisualStudioCode" y "Executable".
+
+3. 
+    * g)
+    ```
+        2)Direccion de memoria que almacena el puntero: 0x5ffe8c
+        3)Direccion de memoria de la variable: 0x5ffe8c
+        4)Direccion de memoria del puntero: 0x5ffe80
+    ```
+
+La direccion de memoria que almacena el puntero es la misma que la de la variable ya que cuando cuando creamos el puntero, le asignamos la direccion de memoria de la variable, almacenando así su dirección exacta en el sistema y pudiendo acceder a ella usando el puntero. En otras palabras, el contenido del puntero es la direccion de memoria de la variable. Como en el 4) obtnemos la direccion de memoria del puntero, tiene sentido que no sea igual a las demás direcciones ya que es la direccion de memoria del puntero en sí en el sistema es diferente a la direccion de memoria de la variable, se almacenan en lugares distintos a pesar de que el puntero apunta a la direccion de memoria de la variable.
